@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSumOddNumbers", "Practice1\RowSumOddNumbers.csproj", "{03CD679C-88C9-4A2C-A85A-CD2D7DB28AC2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_PracticeBase", "PracticeBase\_PracticeBase.csproj", "{05A0EA5D-0D93-49E1-A432-DD1D058B489E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTriangularNumbers", "SumTriangularNumbers\SumTriangularNumbers.csproj", "{C5D47E5B-10BA-40B7-B571-A0E2B0976CF6}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescendingOrder", "Descendi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{E1286B69-5F63-41D2-BA81-A271D09D47F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSumOddNumbers", "RowSumOddNumbers\RowSumOddNumbers.csproj", "{9DD7EE91-DFCC-4852-9443-5D12D136B616}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03CD679C-88C9-4A2C-A85A-CD2D7DB28AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03CD679C-88C9-4A2C-A85A-CD2D7DB28AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03CD679C-88C9-4A2C-A85A-CD2D7DB28AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03CD679C-88C9-4A2C-A85A-CD2D7DB28AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05A0EA5D-0D93-49E1-A432-DD1D058B489E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05A0EA5D-0D93-49E1-A432-DD1D058B489E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A0EA5D-0D93-49E1-A432-DD1D058B489E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{E1286B69-5F63-41D2-BA81-A271D09D47F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1286B69-5F63-41D2-BA81-A271D09D47F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1286B69-5F63-41D2-BA81-A271D09D47F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
