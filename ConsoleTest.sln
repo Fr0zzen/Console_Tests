@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_PracticeBase", "PracticeBase\_PracticeBase.csproj", "{05A0EA5D-0D93-49E1-A432-DD1D058B489E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_PracticeBase", "PracticeBase\_PracticeBase.csproj", "{05A0EA5D-0D93-49E1-A432-DD1D058B489E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTriangularNumbers", "SumTriangularNumbers\SumTriangularNumbers.csproj", "{C5D47E5B-10BA-40B7-B571-A0E2B0976CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumTriangularNumbers", "SumTriangularNumbers\SumTriangularNumbers.csproj", "{C5D47E5B-10BA-40B7-B571-A0E2B0976CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescendingOrder", "DescendingOrder\DescendingOrder.csproj", "{AF9FB505-FD8A-41FA-BD50-A5AFF0D5567C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DescendingOrder", "DescendingOrder\DescendingOrder.csproj", "{AF9FB505-FD8A-41FA-BD50-A5AFF0D5567C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{E1286B69-5F63-41D2-BA81-A271D09D47F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{E1286B69-5F63-41D2-BA81-A271D09D47F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSumOddNumbers", "RowSumOddNumbers\RowSumOddNumbers.csproj", "{9DD7EE91-DFCC-4852-9443-5D12D136B616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RowSumOddNumbers", "RowSumOddNumbers\RowSumOddNumbers.csproj", "{9DD7EE91-DFCC-4852-9443-5D12D136B616}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueInOrder", "UniqueInOrder\UniqueInOrder.csproj", "{4D6D9FC7-645E-4815-8D04-42FEF4A118E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerateTest", "IEnumerateTest\IEnumerateTest.csproj", "{82F1DF52-FF06-41D8-A8C4-E4777249A4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{618A34DB-5818-42F7-AE86-68DAF57A1EE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Katas", "Katas", "{4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +47,25 @@ Global
 		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD7EE91-DFCC-4852-9443-5D12D136B616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6D9FC7-645E-4815-8D04-42FEF4A118E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6D9FC7-645E-4815-8D04-42FEF4A118E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6D9FC7-645E-4815-8D04-42FEF4A118E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6D9FC7-645E-4815-8D04-42FEF4A118E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F1DF52-FF06-41D8-A8C4-E4777249A4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F1DF52-FF06-41D8-A8C4-E4777249A4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F1DF52-FF06-41D8-A8C4-E4777249A4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F1DF52-FF06-41D8-A8C4-E4777249A4CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5D47E5B-10BA-40B7-B571-A0E2B0976CF6} = {4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}
+		{AF9FB505-FD8A-41FA-BD50-A5AFF0D5567C} = {4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}
+		{E1286B69-5F63-41D2-BA81-A271D09D47F6} = {4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}
+		{9DD7EE91-DFCC-4852-9443-5D12D136B616} = {4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}
+		{4D6D9FC7-645E-4815-8D04-42FEF4A118E4} = {4B74ECFA-0BE9-4A59-8ABF-10865CB587BB}
+		{82F1DF52-FF06-41D8-A8C4-E4777249A4CD} = {618A34DB-5818-42F7-AE86-68DAF57A1EE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A672E02B-1B81-4D57-B646-4592CFE27109}
